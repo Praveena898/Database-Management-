@@ -1,7 +1,7 @@
 const { InfluxDB } = require("@influxdata/influxdb-client");
 
 const url= "https://us-east-1-1.aws.cloud2.influxdata.com";
-const token= "aJ_BWqQUs-zasjE9y2T5IjxXhwBHp-yZNV51gjQAz36Wiy-_J0YiS55CSmqc0nI7vv8w_1nNoI8G295RqlbQ2A==";
+const token= "<YOUR API TOKEN>";
 const org= "Christ University";
 
 const query= `
@@ -25,3 +25,4 @@ async function getData(){
 }
 
 getData();
+
